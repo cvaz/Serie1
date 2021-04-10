@@ -8,7 +8,7 @@ class SquareSortedClass {
     @Test
     fun squaresSorted_onArrayWithNoElements() {
         val array = intArrayOf()
-        assertArrayEquals(null, squaresSorted(array))
+        assertArrayEquals(array, squaresSorted(array))
     }
 
     @Test
